@@ -7,8 +7,35 @@
   pointer-events: none;
 }
 
-.cardImg{
+.header {
+  position: relative;
+  z-index: 10;
+  height: 8.5rem;
+  margin: 0;
+  padding: 0;
+}
+.header-fixed{
+  background-color: rgb(255, 221, 0);
+  position: fixed;
+  width: 100% !important;
+  z-index: 1000;
+}
+
+.cardImg {
   max-height: 10rem !important;
+}
+
+#navbarSupportedContent {
+  margin-top: 1rem;
+}
+
+.nav-item a {
+  font-size: 1.2rem;
+  /* color: white; */
+  font-weight: 500;
+}
+.me-2:focus {
+  outline: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
